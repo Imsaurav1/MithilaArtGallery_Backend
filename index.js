@@ -25,7 +25,7 @@ app.use(cors({
   origin:"https://beamish-meerkat-4fa116.netlify.app/"
 }))
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://66b495a22d7b89d52c068235--beamish-meerkat-4fa116.netlify.app");
+  res.setHeader("Access-Control-Allow-Origin", "https://beamish-meerkat-4fa116.netlify.app/");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
