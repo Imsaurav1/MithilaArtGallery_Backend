@@ -22,10 +22,10 @@ const express = require("express");
 const app = express();
 const port = 5000;
 app.use(cors({
-  origin:"https://beamish-meerkat-4fa116.netlify.app/"
+  origin:"https://beamish-meerkat-4fa116.netlify.app"
 }))
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://beamish-meerkat-4fa116.netlify.app/");
+  res.setHeader("Access-Control-Allow-Origin", "https://beamish-meerkat-4fa116.netlify.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
